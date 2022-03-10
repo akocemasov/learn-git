@@ -1,6 +1,18 @@
-console.log("Hello world!");
-console.log("AC commit1");
-console.log("AC commit2 on GitHub");
-console.log("AC upstream1/commit3");
-console.log("AC upstream2/commit3");
-console.log("AC upstream2/commit4");
+
+var a = 10;
+
+
+var obj1 = {
+	"value" : 123,
+	"type" : typeof 123
+};
+
+var val1 = obj1["value"];
+
+let arr1 = [1,2,3];
+let arr2 = arr1;
+
+arr1[0] = 4;
+
+console.log(arr1);
+console.log(arr2);
